@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ColorSwitch from "./ColorSwitch";
-import Avatar from "../../public/avatar.svg";
+import Avatar from "/public/avatar-logo.svg";
 
 const Navbar = () => {
   return (
