@@ -3,7 +3,7 @@ import avatarlist from "./AvatarList";
 
 const AvatarCard = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-6">
       {avatarlist.map((avatar, index) => (
         <div
           className="p-4 border dark:border-slate-700 rounded-lg"
@@ -97,7 +97,7 @@ const AvatarCard = () => {
                     />
                   </g>
                 </svg>
-                <span>JPEG</span>
+                <span className="text-[10px] sm:text-base">JPEG</span>
               </a>
               <a
                 href={`/images/avatars/png/${avatar.slug}.png`}
@@ -127,7 +127,7 @@ const AvatarCard = () => {
                     />
                   </g>
                 </svg>
-                <span>PNG</span>
+                <span className="text-[10px] sm:text-base">PNG</span>
               </a>
             </div>
           </div>
