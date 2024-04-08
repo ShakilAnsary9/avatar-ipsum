@@ -62,7 +62,9 @@ const AvatarCard = () => {
                   </g>
                 </svg>
                 <small className="text-slate-500 underline">
-                  <a href={avatar.authorLink}>{avatar.authorName}</a>
+                  <a href={avatar.authorLink} target="_blank">
+                    {avatar.authorName}
+                  </a>
                 </small>
               </div>
             </div>
