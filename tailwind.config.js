@@ -8,6 +8,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        primary: "#38bdf8",
+      },
       backgroundImage: {
         pngbg:
           "url(https://assets-global.website-files.com/636496d3f0ebfdaba9784655/65a759bb8d34c9b08dddfaff_transparent-background.svg)",
