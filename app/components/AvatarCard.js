@@ -18,7 +18,7 @@ const AvatarCard = () => {
                 alt={avatar.name}
                 width={640}
                 height={640}
-                objectFit="cover"
+                // objectFit="cover"
               />
             </div>
 
@@ -30,7 +30,7 @@ const AvatarCard = () => {
                 alt={avatar.slug}
                 width={640}
                 height={640}
-                objectFit="cover"
+                // objectFit="cover"
               />
             </div>
           </div>
@@ -47,8 +47,8 @@ const AvatarCard = () => {
                   <g
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeWidth="1.5"
                   >
                     <path
                       d="m14.162 18.488l-.72.72a6.117 6.117 0 0 1-8.65-8.65l.72-.72"
@@ -61,7 +61,7 @@ const AvatarCard = () => {
                     />
                   </g>
                 </svg>
-                <small className="text-slate-500 underline">
+                <small className="text-slate-500 underline hover:text-primary/70">
                   <a href={avatar.authorLink} target="_blank">
                     {avatar.authorName}
                   </a>
@@ -72,7 +72,7 @@ const AvatarCard = () => {
               <a
                 href={`/images/avatars/jpeg/${avatar.slug}.jpg`}
                 download
-                className="flex gap-2 items-center"
+                className="flex gap-2 items-center hover:text-primary"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,8 +83,8 @@ const AvatarCard = () => {
                   <g
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeWidth="1.5"
                   >
                     <path d="M22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12s0-7.071 1.464-8.536C4.93 2 7.286 2 12 2" />
                     <path
@@ -92,7 +92,7 @@ const AvatarCard = () => {
                       opacity=".5"
                     />
                     <path
-                      stroke-linejoin="round"
+                      strokeLinejoin="round"
                       d="M17 11V2m0 9l3-3m-3 3l-3-3"
                     />
                   </g>
@@ -102,7 +102,7 @@ const AvatarCard = () => {
               <a
                 href={`/images/avatars/png/${avatar.slug}.png`}
                 download
-                className="flex gap-2 items-center"
+                className="flex gap-2 items-center hover:text-primary"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

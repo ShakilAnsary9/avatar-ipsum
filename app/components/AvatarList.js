@@ -15,8 +15,19 @@ const avatars = [
     name: "Adil Floyd",
     slug: "Adil-Floyd",
     authorName: "Cottonbro Studio",
-    authorLink:
-      "https://www.pexels.com/photo/man-in-a-sweater-and-black-pants-6626903/",
+    authorLink: "https://www.pexels.com/@cottonbro/",
+  },
+  {
+    name: "Adriana O'Sullivan",
+    slug: "Adriana-O'Sullivan",
+    authorName: "Olena Sergienko",
+    authorLink: "https://unsplash.com/@olenkasergienko",
+  },
+  {
+    name: "Alec Whitten",
+    slug: "Alec-Whitten",
+    authorName: "Collins Lesulie",
+    authorLink: "https://unsplash.com/@clesulie",
   },
 ];
 
