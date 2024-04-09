@@ -29,6 +29,30 @@ const avatars = [
     authorName: "Collins Lesulie",
     authorLink: "https://unsplash.com/@clesulie",
   },
+  {
+    name: "Ali Mahdi",
+    slug: "Ali-Mahdi",
+    authorName: "MuntasirMahdi",
+    authorLink: "https://www.pexels.com/@muntasirmahdi-52022448/",
+  },
+  {
+    name: "Aliah Lane",
+    slug: "Aliah-Lane",
+    authorName: "Moose Photos",
+    authorLink: "https://www.pexels.com/@moose-photos-170195/",
+  },
+  {
+    name: "Alisa Hester",
+    slug: "Alisa-Hester",
+    authorName: "Dziana Hasanbekava",
+    authorLink: "https://www.pexels.com/@dziana-hasanbekava/",
+  },
+  {
+    name: "Amanda Lowery",
+    slug: "Amanda-Lowery",
+    authorName: "Polinach",
+    authorLink: "javascript:void(0)",
+  },
 ];
 
 export default avatars;

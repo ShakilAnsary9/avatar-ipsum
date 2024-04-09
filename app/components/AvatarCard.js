@@ -18,7 +18,6 @@ const AvatarCard = () => {
                 alt={avatar.name}
                 width={640}
                 height={640}
-                // objectFit="cover"
               />
             </div>
 
@@ -30,7 +29,6 @@ const AvatarCard = () => {
                 alt={avatar.slug}
                 width={640}
                 height={640}
-                // objectFit="cover"
               />
             </div>
           </div>
